@@ -1,0 +1,91 @@
+body {
+display:flex;
+align-items: center;
+justify-content: center;
+background:url(salveobg.jpg);
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size:cover;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display:inline-flexbox;
+    justify-content: right;
+    margin-left:67%;
+    margin-top: 1%;
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px ;
+}
+.container h2 {
+    position: relative;
+    font-size: 25px;
+    color:#d47d0b
+}
+.container form{
+    margin-top: 30px;
+}
+.container form .input-box {
+    height:48px;
+    margin: 18px 0;
+}
+form .input-box input{
+    height:100%;
+    width:100%;
+    outline: none;
+    border: 1px solid greenyellow;
+    border-bottom-width: 2.5px;
+    padding: 0 8px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.input-box.button input{
+    letter-spacing: 1px;
+    border:none;
+    cursor: pointer;
+    background-color:yellowgreen;
+}
+form .policy {
+    display: flex;
+    align-items: center;
+}
+.input-box.button input:hover {
+    opacity: 1;
+}
+#checkbox {
+    accent-color: yellowgreen;
+}
+.fa-facebook {
+    font-size: 20px;
+    color: yellowgreen;
+}
+.fa-square-instagram{
+    font-size: 20px;
+    color: yellowgreen;
+}
+.fa-twitter {
+    font-size: 20px;
+    margin-right: 1%;
+    color:yellowgreen;
+}
+.toggle-password {
+    color:greenyellow;
+    position: absolute;
+    right: 24px;
+    top: 44%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .confirm-password {
+    color: greenyellow;
+    position: absolute;
+    right: 24px;
+    top: 55%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
